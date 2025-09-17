@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<div class="todo">
+    <h1>TODO LIST</h1>
+
+    <input type="text" id="input" >
+    <button id="btn" onclick="update()" >add</button>
+    <ul id="list">
+         <li class="lit"> <input type="checkbox" class="strik" onclick="strikout(event)">Brushing <button class="bttn" onclick="deleting(event)">X</button></li>  
+         <li class="lit"><input type="checkbox"  class="strik"  onclick="strikout(event)">Reading  <button class="bttn" onclick="deleting(event)">X</button></li>
+         <li class="lit"><input type="checkbox"  class="strik"  onclick="strikout(event)">Eating  <button class="bttn" onclick="deleting(event)">X</button></li>
+    </ul>
+
+
+</div>
+
+
+
+
+
+
+
+    <script src="java.js" charset="UTF-8"></script>
+</body>
+</html>
